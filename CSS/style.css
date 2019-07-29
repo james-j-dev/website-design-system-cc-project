@@ -1,0 +1,159 @@
+body {
+  margin: 0 10%;
+}
+
+/* nav */
+nav {
+  position: fixed;
+  top: 20px;
+  right: 1.8%;
+  width: 100px;
+}
+nav a {
+  display: block;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  margin: 3px auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #758AA8;
+}
+a button {
+  background-color: #758AA8;
+  border: none;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: white;
+}
+a button:focus {
+  outline: 0;
+}
+
+.container {
+  border: 2px solid #758AA8;
+  min-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+/* color */
+.color-container {
+  width: 100%;
+}
+.color-panel {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+}
+#stormy-sky {
+  background-color: #758AA8;
+}
+#chambray {
+  background-color: #4C668C;
+}
+#denim {
+  background-color: #2C4870;
+}
+#ocean {
+  background-color: #143E54;
+}
+#midnight {
+  background-color: #051A38;
+}
+
+/* font */
+.font-container {
+  width: 100%;
+}
+.font-panel {
+  display: inline-block;
+  width: 40%;
+}
+.font-label {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.pridi {
+  font-family: 'Pridi', serif;
+}
+.extra-light-pridi {
+  font-weight: 200;
+}
+.regular-pridi {
+  font-weight: 400;
+}
+.bold-pridi {
+  font-weight: 700;
+}
+.kalam {
+  font-family: 'Kalam', cursive;
+}
+.light-kalam {
+  font-weight: 300;
+}
+.regular-kalam {
+  font-weight: 400;
+}
+.bold-kalam {
+  font-weight: 700;
+}
+.gloria-hallelujah {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.regular-gloria-hallelujah {
+  font-weight: 400;
+}
+
+/* text */
+.text-container {
+  width: 100%;
+}
+.text-panel {
+  width: 100%;
+}
+
+/* button */
+.button {
+  color: white;
+  background-color: #051A38;
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+.button:focus {
+  outline: 0;
+}
+.small-font {
+  font-size: 8px;
+}
+.large-font {
+  font-size: 24px;
+}
+.rounded {
+  border-radius: 50%;
+}
+.pressed-effect {
+  box-shadow: 0 4px rgb(171, 176, 182);
+}
+.pressed-effect:active {
+    box-shadow: 0 0 #051A38;
+    transform: translateY(4px);
+}
+.hover-shadow:hover {
+  box-shadow: 6px 6px 8px 4px #051A38;
+}
+.hover-color {
+  color: black;
+  background-color: white;
+}
+.hover-color:hover {
+  color: white;
+  background-color: #051A38;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
